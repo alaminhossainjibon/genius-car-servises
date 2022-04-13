@@ -10,13 +10,16 @@ const Register = () => {
 
     const handleRegister = e => {
         e.preventDefault();
+        const nsme = e.target.name.value;
+        const email = e.target.email.value;
+        const password = e.target.password.value;
     }
 
 
     return (
         <div className='register-form'>
             <h2 className='text-primary text-center my-2'>Please Register: </h2>
-            <form onClick={handleRegister}>
+            <form onSubmit={handleRegister}>
                 <label htmlFor="name">Your Name:</label>
                 <input type="text" name="name" id="" placeholder='Your name' />
                 <label htmlFor="email">Your Email:</label>
