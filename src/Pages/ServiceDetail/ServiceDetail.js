@@ -7,11 +7,11 @@ const ServiceDetail = () => {
         <div>
             <h2>Welcome Details: {serviceId}</h2>
 
-            {/* <div className='text-center'>
+            <div className='text-center'>
                 <Link to="/checkout">
                     <button className='btn btn-primary'>Proceed Checkout</button>
                 </Link>
-            </div> */}
+            </div>
         </div>
     );
 };
