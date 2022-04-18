@@ -1,6 +1,7 @@
 .register-form {
     margin: 0 auto;
     width: 50%;
+    text-align: center;
 }
 
 .register-form input:not([type=checkbox]) {
