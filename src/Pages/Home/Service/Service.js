@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 import './Service.css'
 const Service = ({ service }) => {
     const { id, name, img, description, price } = service;
@@ -9,6 +10,7 @@ const Service = ({ service }) => {
     }
     return (
         <div className='service'>
+            <PageTitle title="Service"></PageTitle>
             <img src={img} alt="" />
             <h2>Name: {name}</h2>
             <p>Price: ${price}</p>
